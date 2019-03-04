@@ -2,7 +2,7 @@
 
 A few twig helpers for digging into variables
 
-![Screenshot](resources/img/plugin-logo.png)
+![Screenshot](resources/img/plugin-logo.svg)
 
 ## Requirements
 
