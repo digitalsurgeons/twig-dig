@@ -1,0 +1,40 @@
+{
+    "name": "digitalsurgeons/twig-dig",
+    "description": "Assorted functions and filters for twig",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "twigdig"
+    ],
+    "support": {
+        "docs": "https://github.com/digitalsurgeons/twig-dig/blob/master/README.md",
+        "issues": "https://github.com/digitalsurgeons/twig-dig/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Digital Surgeons",
+            "homepage": "https://www.digitalsurgeons.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "digitalsurgeons\\twigdig\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "TwigDig",
+        "handle": "twig-dig",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/digitalsurgeons/twig-dig/master/CHANGELOG.md",
+        "class": "digitalsurgeons\\twigdig\\TwigDig"
+    }
+}
